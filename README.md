@@ -46,6 +46,7 @@ Using the **Mpox Skin Lesion Dataset v2.0 (MSLD)**, we applied **5-fold cross-va
 ├── data/                        # Organized dataset (after preprocessing)
 ├── results/                     # Accuracy graphs, confusion matrices, model weights
 └── README.md                    # This file
+```
 ⚙️ Requirements
 Install dependencies:
 
@@ -69,17 +70,19 @@ matplotlib, seaborn
 1. CNN Models
 Run:
 
-bash
+```bash
 Copy
 Edit
 jupyter notebook cnn_pipeline.ipynb
+```
 2. Vision Transformer (ViT)
 Run:
 
-bash
+```bash
 Copy
 Edit
 jupyter notebook vit_pipeline.ipynb
+```
 Configuration
 Input Image Size: 224x224
 
@@ -127,6 +130,3 @@ HuggingFace & Keras for model backbones.
 📄 License
 This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
